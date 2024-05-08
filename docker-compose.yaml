@@ -1,0 +1,10 @@
+services:
+  backend:
+    build: ./major/major/src/main/java/com/sheryians/major
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./major/major/src/main/resources
+    ports:
+      - "8081:8081"
